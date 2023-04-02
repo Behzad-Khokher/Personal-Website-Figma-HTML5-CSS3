@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+/* Nav */
+.nav-container{
+    background: #FFFFFA;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+    height: 72px;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav .logo{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 82px;
+    color: #000000;
+}
+
+.nav-items{
+    margin-right: 400px;
+}
+
+.nav-items li{
+    list-style: none;
+    margin-right: 52px;
+}
+
+.nav-items li a{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #021718;
+}
+
+/* Header */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -60px;
+}
+
+.header-container{
+    background: #F8F3ED;
+    background-size: contain;
+    height: calc(100vh - 72px);
+
+    display: flex;
+    align-items: center;
+}
+
+header h1{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 82px;
+    margin-bottom: 39px;
+}
+
+header p{
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;
+    width:476px;
+    margin-bottom: 54px;
+}
+
+header a{
+    color: #FFFFFA;
+    font-size: 24px;
+    line-height: 42px;
+    text-decoration: none;
+    padding: 9px 0px;
+
+    display: inline-block;
+    transition: 300ms;
+
+    
+}
+
+header a:hover {
+    transform: translateY(-8px);
+}
+
+.contact-button{
+    background: black;
+    /* width: 196px; */
+    margin-right: 32px;
+    width: 196px;
+    text-align: center;
+  
+}
+
+.project-button{
+    background: #E7b300;
+    /* width: 242px; */
+    width: 242px;
+    text-align: center;
+}
+
+
+.hero-image:hover{
+    transform: translateY(-8px);   
+}
+
+.hero-image img{
+    width: 600px;
+    height: auto;
+}
+
+.django{
+    color: #2AB863;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+} 
+
+.social-icons{
+    position: absolute;
+    left:0;
+    bottom:0;
+    margin-left: 165px;
+}
+
+.social-icons a{
+    padding-right: 52px;
+}
+.bottom-python {
+    position: fixed;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+  }
